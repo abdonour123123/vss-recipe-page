@@ -159,7 +159,7 @@ body {
   justify-content: center;
   align-items: center;
   height: auto;
-  border-radius: 1.6rem;
+  border-radius: 1.2rem;
 }
 
 .recipe-image-wrapper {
@@ -168,7 +168,7 @@ body {
 }
 
 .recipe-image {
-  border-radius: 16px;
+  border-radius: 1.2rem;
   width: 100%;
   display: block;
 }

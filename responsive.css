@@ -17,11 +17,25 @@
   .ingredients,
   .Instructions,
   .nutrition {
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 32px;
+    margin-left: 32px;
   }
   .preparation {
     max-width: 44.6rem;
     padding: 24px;
+  }
+  .description p {
+    max-width: 26rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .description p {
+    max-width: fit-content;
+    width: 85%;
+  }
+  .ingredients ul li:last-child {
+    max-width: 110%;
+    width: 110%;
   }
 }
