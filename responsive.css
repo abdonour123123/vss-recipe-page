@@ -1,0 +1,27 @@
+@media (max-width: 550px) {
+  body.p-128 {
+    padding: 0;
+  }
+  .recipe {
+    border-radius: 0;
+  }
+
+  .recipe.p-40 {
+    padding: 0;
+  }
+  .recipe-image {
+    border-radius: 0;
+  }
+  .description,
+  .preparation,
+  .ingredients,
+  .Instructions,
+  .nutrition {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .preparation {
+    max-width: 44.6rem;
+    padding: 24px;
+  }
+}
